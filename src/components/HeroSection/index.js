@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
-import { Button } from '../ButtonElement';
+import { Button } from '../ButtonElements';
 import {
   HeroContainer,
   HeroBg,
@@ -25,7 +25,7 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Aranda's Database Diagnose Tool</HeroH1>
+          <HeroH1>Aranda Database Diagnose Utility</HeroH1>
           <HeroP>
             Update your database easier than ever! Less waiting time, less rollbacks, less stress!
           </HeroP>
