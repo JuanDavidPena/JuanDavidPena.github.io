@@ -18,7 +18,7 @@ const Navbar = ({ toggle }) => {
         <Nav>
             <NavbarContainer>
                 <NavLogo to='/'>
-                    DataBase Diagnose Tool
+                    ADBDT
                 </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
