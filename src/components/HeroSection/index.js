@@ -30,7 +30,7 @@ const HeroSection = () => {
             Update your database easier than ever! Less waiting time, less rollbacks, less stress!
           </HeroP>
           <HeroBtnWrapper>
-            <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+            <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover}>
               Get started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
