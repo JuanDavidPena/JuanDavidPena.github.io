@@ -43,7 +43,7 @@ export const ServicesCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
+    height: 380px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
@@ -75,8 +75,11 @@ export const ServicesH1 = styled.h1`
 `
 
 export const ServicesH2 = styled.h2`
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
+    text-align: center;
+    color: #28058d;
+
 `
 
 export const ServicesP = styled.p`

@@ -39,30 +39,40 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
                 <NavLogo to='/' onClick={toggleHome}>
-                    ADBDU
+                    ADDU
                 </NavLogo>
                 <MobileIcon onClick= {toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
+                        <NavLinks to="services0"
+                        smooth={true} duration={500} spy={true} exact="true" offset={0}
+                        >Problem</NavLinks>
+                    </NavItem>
+                    <NavItem>
                         <NavLinks to="about" 
-                        smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                        smooth={true} duration={500} spy={true} exact='true' offset={0}
                         >About</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="discover"
-                        smooth={true} duration={500} spy={true} exact="true" offset={-80}
+                        smooth={true} duration={500} spy={true} exact="true" offset={1}
                         >Services</NavLinks>
                     </NavItem>
                     <NavItem>
+                        <NavLinks to="services2"
+                        smooth={true} duration={500} spy={true} exact="true" offset={20}
+                        >Benefits</NavLinks>
+                    </NavItem>
+                    <NavItem>
                         <NavLinks to="signup"
-                        smooth={true} duration={500} spy={true} exact="true" offset={-79}
+                        smooth={true} duration={500} spy={true} exact="true" offset={1}
                         >How It Works</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="services"
-                        smooth={true} duration={500} spy={true} exact="true" offset={-50}
+                        smooth={true} duration={500} spy={true} exact="true" offset={1}
                         >Our Team</NavLinks>
                     </NavItem>
                 </NavMenu>
