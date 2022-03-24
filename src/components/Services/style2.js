@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import {Link as LinkR} from 'react-router-dom'
 
 export const ServicesContainer = styled.div`
     height: 860px;
@@ -7,7 +6,7 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #28058D;
+    background: #656ac1;
 
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -83,9 +82,4 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
-`
-
-export const ServicesLink = styled(LinkR)`
-    text-decoration: none;
-    color: #000;
 `

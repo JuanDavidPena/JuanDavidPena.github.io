@@ -27,7 +27,7 @@ const HeroSection = () => {
         <HeroContent>
           <HeroH1>Aranda Database Diagnose Utility</HeroH1>
           <HeroP>
-            Update your database easier than ever! Less waiting time, less rollbacks, less stress!
+            Update your database easier than ever! Less waiting time, less rollbacks, less stress! Download right now and start loving your version releases.
           </HeroP>
           <HeroBtnWrapper>
             <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover}>
