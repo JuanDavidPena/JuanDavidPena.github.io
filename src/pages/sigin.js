@@ -1,10 +1,12 @@
 import React from 'react'
+import Signin from '../components/Signin'
+import { homeObjOne } from '../components/Signin/Data'
 
 const SigninPage = () => {
   return (
-    <div>
-        <h1>We are so sorry :(</h1>
-    </div>
+    <>
+        <Signin {...homeObjOne} />
+    </>
   )
 }
 

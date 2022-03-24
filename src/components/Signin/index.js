@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../ButtonElements'
 import {
     InfoContainer,
     InfoRow,
@@ -12,8 +11,9 @@ import {
     Subtitle,
     BtnWrap,
     ImgWrap,
-    Img
-} from './InfoElements'
+    Img,
+    Button
+} from './SigninElements'
 
 const Signin = ({lightBg,id,imgStart,topLine,lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
   return (
@@ -27,12 +27,7 @@ const Signin = ({lightBg,id,imgStart,topLine,lightText, headline, darkText, desc
                         <Heading lightText={lightText}>{headline}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         <BtnWrap>
-                            <Button to='home'
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact="true"
-                            offset={-80}
+                            <Button to='//dev.azure.com/ArandaCS/Database%20Tools/_git/Aranda%20Database%20Tools'
                             primary={primary ? 1 : 0}
                             dark={dark ? 1 : 0}
                             dark2={dark2 ? 1: 0}
