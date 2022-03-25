@@ -25,7 +25,7 @@ export const homeObjTwo = {
     description: 'ADDU allows you to know if your updates are going to be successfull or not before you execute them.',
     buttonLabel: 'You almost got it!',
     imgStart: true,
-    img: require('../../images/img-3.png'),
+    img: require('../../images/img-3.jpeg'),
     alt: 'Analysis',
     dark: false,
     primary: false,
