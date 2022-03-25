@@ -59,9 +59,9 @@ const Footer = () => {
         <SocialMedia>
             <SocialMediaWrap>
                 <SocialLogo to='/'>
-                    ADBDU
+                    ADDU
                 </SocialLogo>
-                <WebsiteRights>ADBDU © {new Date().getFullYear()}
+                <WebsiteRights>ADDU © {new Date().getFullYear()}
                 All rights reserved.</WebsiteRights>
                 <SocialIcons>
                     <SocialIconLink href="/" target="_blank" aria-label="Facebook">
